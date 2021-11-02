@@ -30,7 +30,7 @@ def runBot(reddit,commentList,subreddit,triggerPhrase,triggeredResponse):
 def main():
   reddit = authenticate('Annoying Reddit Bot 0.1.0')
   commentList = getCommentList()
-  subreddit = # I'd rather not disclose the name of the subreddit on which I used this bot.
+  subreddit = numdar335 # it is a private subreddit I made to test stuff (the only approved users are u/numdar335 and u/numdar335_bot)
   print('Time to start obtaining comments.')
   while True:
     runBot(reddit,commentList,subreddit,'!annoyingRedditBot','I\'M ALIVE! MWAHAHAHAHAHAHAHA. BEEP BOOP BEEP BOOP BTW I\'M A BOT. AM I A GOOD BOT? AM I A BAD BOT? ^btw ^[here](https://github.com/numdar335/reddit_bot) ^is ^the ^source ^code')
